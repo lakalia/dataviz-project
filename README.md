@@ -2,11 +2,22 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is the [data]((https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924)) from Hans Rosling's Gapminder Population Growth: [image](https://d3js.slack.com/files/U0199ME1BD4/F01AV12CT5Y/hans_rosling_visualization.gif) 
+brushed with the world regions according to the world bank:
+[image](https://d3js.slack.com/files/U0199ME1BD4/F01AV760TEF/world-regions-according-to-the-world-bank.gif)
+Ideally the world regions will be faded in the background until you mouse-over a country in which case the corresponding region and all other countries in the region will pop. 
+I'd like to add a slider to animate population change over time instead of a static visualization and, eventually, I will add a drop-down to choose between visualizing Total Population, Life Expectancy or Fertility.
+
+
 
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I began translating my Vega-Lite visualization of the Hans Rosling Population Growth data:
+https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44
+into React and D3:
+https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00
+and I would like to use the lessons from this week to brush in the world regions in the background
 
 [![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://beta.vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
