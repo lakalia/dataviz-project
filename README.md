@@ -6,7 +6,7 @@ The data I propose to visualize for my project is the [data]((https://gist.githu
 brushed with the world regions according to the world bank:
 [image](https://d3js.slack.com/files/U0199ME1BD4/F01AV760TEF/world-regions-according-to-the-world-bank.gif)
 Ideally the world regions will be faded in the background until you mouse-over a country in which case the corresponding region and all other countries in the region will pop. 
-I'd like to add a slider to animate population change over time instead of a static visualization and, eventually, I will add a drop-down to choose between visualizing Total Population, Life Expectancy or Fertility.
+I'd like to add a slider to animate population change over time instead of a static visualization and use Income per capita data on the x axis. Eventually, I will add a drop-down to choose between visualizing Total Population, Life Expectancy or Fertility against Income per capita data.
 
 
 
