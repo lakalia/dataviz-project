@@ -20,17 +20,19 @@ I created an initial proof of concept visualization in Vega-Lite of the Hans Ros
 [![proof of concept visualization in Vega-Lite](GapminderPopulationGrowth_Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
 
 I then began translating and refining that visualization in React and D3:
-![translating and refining that visualization in React and D3](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
-and I would like to use the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background, add the slider and add a drop-down.
+[![translating and refining that visualization in React and D3](GapminderPopulationGrowth_React_D3.png)](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
+and I would like to use the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
+* brush in the world regions in the background
+* add the slider to animate over time
+* and add a drop-down to change the attribute used to populate the y axis
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Is there a correlation between Population, Life Expectancy or Fertility and a nation's Income per capita?
+ * Does the world region of a country have any impact on those relationships? How much/what kind?
+ * Are there any interesting correlations within the world regions?
 
 ## Sketches
 
