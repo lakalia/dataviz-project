@@ -10,17 +10,18 @@ brushed with the world regions according to the world bank:
 [![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)](https://ourworldindata.org/grapher/world-regions-according-to-the-world-bank)
 
 Ideally the world regions will be faded in the background until you mouse-over a country in which case the corresponding region and all other countries in the region will pop. 
-I'd like to have a slider to animate population change over time and a drop-down to choose between visualizing Total Population, Life Expectancy and Fertility on the y axis against Income per capita on the x axis.
+I'd like to have a slider to animate population change over time and a drop-down to choose between visualizing Total Population, Life Expectancy or Fertility on the y axis against Income per capita on the x axis.
 
 
 
 ## Prototypes
 
-I’ve created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
-https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44
+I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
+![proof of concept visualization in Vega-Lite](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
+
 I then began translating and refining that visualization in React and D3:
-https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00
-and I would like to use the lessons from [Episodes 28 and 29](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background
+![translating and refining that visualization in React and D3](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
+and I would like to use the lessons from [Episodes 28 and 29 of Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background
 
 ## Questions & Tasks
 
