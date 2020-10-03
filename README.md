@@ -2,26 +2,25 @@
 
 ## Data
 
-The data I propose to visualize for my project is the [data](https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924) from Hans Rosling's Gapminder Population Growth: 
+The data I propose to visualize for my project is the [data](https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924) 
+from Hans Rosling's Gapminder: 
 [![Hans_Rosling_visualization](Hans_Rosling_visualization.gif)](https://www.gapminder.org/tools) 
+
 brushed with the world regions according to the world bank:
-![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)
+[![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)](https://ourworldindata.org/grapher/world-regions-according-to-the-world-bank)
+
 Ideally the world regions will be faded in the background until you mouse-over a country in which case the corresponding region and all other countries in the region will pop. 
-I'd like to add a slider to animate population change over time and a drop-down to choose between visualizing Total Population, Life Expectancy or Fertility against Income per capita.
+I'd like to have a slider to animate population change over time and a drop-down to choose between visualizing Total Population, Life Expectancy and Fertility on the y axis against Income per capita on the x axis.
 
 
 
 ## Prototypes
 
-I’ve created a beginning proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
+I’ve created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
 https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44
 I then began translating and refining that visualization in React and D3:
 https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00
-and I would like to use the lessons from this week to brush in the world regions in the background
-
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://beta.vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
+and I would like to use the lessons from [Episodes 28 and 29](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background
 
 ## Questions & Tasks
 
