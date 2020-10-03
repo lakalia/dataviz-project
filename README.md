@@ -17,11 +17,11 @@ I'd like to have a slider to animate population change over time and a drop-down
 ## Prototypes
 
 I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
-[![proof of concept visualization in Vega-Lite](Gapminder Population Growth in Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
+[![proof of concept visualization in Vega-Lite](GapminderPopulationGrowth_Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
 
 I then began translating and refining that visualization in React and D3:
 ![translating and refining that visualization in React and D3](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
-and I would like to use the lessons from [Episodes 28 and 29 of Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background
+and I would like to use the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to brush in the world regions in the background, add the slider and add a drop-down.
 
 ## Questions & Tasks
 
