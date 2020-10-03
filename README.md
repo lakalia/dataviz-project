@@ -3,7 +3,7 @@
 ## Data
 
 The data I propose to visualize for my project is the [data](https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924) from Hans Rosling's Gapminder Population Growth: 
-![image](https://raw.githubusercontent.com/lakalia/dataviz-project-proposal/master/Hans_Rosling_visualization.gif) 
+![image](https://d3js.slack.com/files/U0199ME1BD4/F01AV12CT5Y/hans_rosling_visualization.gif) 
 brushed with the world regions according to the world bank:
 [image](https://d3js.slack.com/files/U0199ME1BD4/F01AV760TEF/world-regions-according-to-the-world-bank.gif)
 Ideally the world regions will be faded in the background until you mouse-over a country in which case the corresponding region and all other countries in the region will pop. 
