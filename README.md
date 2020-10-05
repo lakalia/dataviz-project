@@ -36,9 +36,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
+![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+Although Hans Rosling's visualization on which this project is initially based has been implemented in React and D3 and the code is available on the internet, I'd like to be able to implement this project myself entirely from scratch. Based on the amount of time it has taken me to implement each feature so far, however, I am concerned the project is too ambitious to complete in the time we have. I will continue until it is completed because it will be a great learning exercise and a great way to showcase what I have learned when it is done.
