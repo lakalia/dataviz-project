@@ -23,7 +23,7 @@ I then began translating and refining that visualization in React and D3:
 [![translating and refining that visualization in React and D3](GapminderPopulationGrowth_React_D3.png)](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
 and I would like to use the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
 * brush in the world regions in the background
-* add the slider to animate over time
+* add the slider to animate population growth over time against income per capita
 * and add a drop-down to change the attribute used to populate the y axis
 
 ## Questions & Tasks
