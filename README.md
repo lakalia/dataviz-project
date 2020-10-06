@@ -62,4 +62,6 @@ Wk 10:
 * add a slider to animate change over time and change the x-axis to pull in income per capita
     - any selected region(s) will remain selected when slider is moved
     - currently only pulling in first 10 countries so need to modify that code to pull in all the countries
+* add a drop-down to change the attribute used to populate the x axis (and add Income per capita to the y-axis drop-down as well)
+    - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
 
