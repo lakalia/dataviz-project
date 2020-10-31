@@ -16,7 +16,6 @@ Note: The world regions according to the world bank, to an extent, take cultural
 The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click on a region in the legend at which point the corresponding region in the background and all the country-circles for countries in the region pop. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. Year on the x axis will allow the user to see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
 
 
-
 ## Prototypes and Process
 
 I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
@@ -31,7 +30,7 @@ I used the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08
 
 ## Questions & Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The following tasks and questions drove the visualization and interaction decisions for this project:
 
  * Is there a correlation between Population, Life Expectancy, Fertility and a nation's Income per capita over time?
  * Does the world region of a country have any impact on those relationships? How much/what kind?
@@ -44,7 +43,7 @@ Hans Rosling's Gapminder data visualization with drop-down for Total Population,
 
 ## Open Questions
 
-Although Hans Rosling's visualization on which this project was initially based has been implemented in React and D3 and the code is available on the internet, I wanted to implement this project myself entirely from scratch in order to learn React and D3. I was concerned the project was too ambitious for the time we had to complete it, but ultimately I was able to complete it and it was a great learning exercise and a great way to showcase what I have learned.
+Although Hans Rosling's visualization on which this project was initially based has been implemented in React and D3 and the code is available on the internet, I wanted to implement this project myself entirely from scratch in order to really learn React and D3. I was concerned the project was too ambitious for the time we had to complete it, but ultimately I did complete it by the end of the class -- it was a great learning exercise and a great way to showcase what I have learned!
 
 ### Schedule of Deliverables
 
@@ -73,6 +72,13 @@ Wk 10:
     - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
 * calculate r for circleRadius based on yValue and y axis range
     - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
-    
+
+### Completed Project
+
 [need image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
+
+### Future Work
+
+* style the slider or import a react component for consistency across browsers
+* change the x axis dropdown to dropup and remove scroll bars
 
