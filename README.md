@@ -9,6 +9,8 @@ behind Hans Rosling's now famous Gapminder population growth visualization:
 linked to the world regions according to the world bank in the background:
 [![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)](https://ourworldindata.org/grapher/world-regions-according-to-the-world-bank)
 
+Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
+
 The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click a region in the legend at which point the corresponding region in the background and all the country-circles for countries in the region will pop. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. Year on the x axis will allow the user to see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
 
 
@@ -20,18 +22,18 @@ I created an initial proof of concept visualization in Vega-Lite of the Hans Ros
 
 I then began translating that visualization in React and D3:
 [![translating and refining that visualization in React and D3](GapminderPopulationGrowth_React_D3.png)](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
-I will use the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
-* brush in the world regions in the background
+I used the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
+* link the world regions in the background
 * add a slider to animate population growth over time against income per capita
-* and add a drop-down to change the attribute used to populate the y axis
+* and to add drop-downs to change the attributes used to populate the x and y axes
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * Is there a correlation between Population, Life Expectancy or Fertility and a nation's Income per capita?
+ * Is there a correlation between Population, Life Expectancy, Fertility and a nation's Income per capita over time?
  * Does the world region of a country have any impact on those relationships? How much/what kind?
- * Are there any interesting correlations within the world regions?
+ * Are there any interesting correlations within or between the world regions?
 
 ## Sketches
 
