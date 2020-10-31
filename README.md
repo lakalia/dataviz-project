@@ -11,13 +11,13 @@ linked to the world regions according to the world bank in the background:
 
 Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
 
-## Proposal
+## Proposed Visualization
 
 The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click a region in the legend at which point the corresponding region in the background and all the country-circles for countries in the region pop. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. Year on the x axis will allow the user to see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
 
 
 
-## Prototypes
+## Prototypes and Process
 
 I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
 [![proof of concept visualization in Vega-Lite](GapminderPopulationGrowth_Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
@@ -40,7 +40,7 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 
 Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
-![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
+[![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ## Open Questions
 
@@ -53,15 +53,15 @@ Wk 6:
     - Life Expectancy, UN Fertility and Income per capita for the options for the drop-down(s)
     - region and possibly hex-value for regions and region-color
 * add a drop-down to change the attribute used to populate the y axis 
-![image](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
+[![image](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
 
 Wk 8:
 * add a color legend and the world regions to be faded in the background until a region is "selected" (on mouse-over or by clicking on a region in the legend)
     - multiple regions can be selected at once for comparison
     - selecting a region will make all country-circles in the region and the region in the background pop
-![image](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
-![image](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
-![image](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
+[![image](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
+[![image](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
+[![image](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
 
 Wk 10:
 * add a slider to animate change over time and add a drop-down for the x-axis to pull in all the attributes
@@ -69,5 +69,5 @@ Wk 10:
     - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
 * calculate r for circleRadius based on yValue and y axis range
     - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
-![image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
+[![image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
 
