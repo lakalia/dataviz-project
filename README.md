@@ -42,27 +42,30 @@ Hans Rosling's Gapminder data visualization with drop-down for Total Population,
 
 ## Open Questions
 
-Although Hans Rosling's visualization on which this project is initially based has been implemented in React and D3 and the code is available on the internet, I'd like to be able to implement this project entirely from scratch. I am concerned the project is very ambitious for the time we have to complete it, but I will continue working on it to completion because it will be a great learning exercise and a great way to showcase what I have learned when it is done.
+Although Hans Rosling's visualization on which this project was initially based has been implemented in React and D3 and the code is available on the internet, I wanted to implement this project myself entirely from scratch in order to learn React and D3. I was concerned the project was too ambitious for the time we had to complete it, but ultimately I was able to complete it and it was a great learning exercise and a great way to showcase what I have learned.
 
-### Schedule of Deliverables (Tentative)
+### Schedule of Deliverables
 
 Wk 6:
 * add additional columns to the summary data set:
-    - Life Expectancy and UN Fertility for the options for the drop-down
-    - Income per capita for the new x-axis
+    - Life Expectancy, UN Fertility and Income per capita for the options for the drop-down(s)
     - region and possibly hex-value for regions and region-color
 * add a drop-down to change the attribute used to populate the y axis 
+![image](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
 
 Wk 8:
-* brush in the world regions to be faded in the background until a region is "selected" (by clicking on a country-circle)
+* add a color legend and the world regions to be faded in the background until a region is "selected" (on mouse-over or by clicking on a region in the legend)
     - multiple regions can be selected at once for comparison
-    - selecting a region will make all country-circles in the region pop
-* calculate r for circleRadius based on yValue and y axis range
-    - circle size is redundant encoding so not strictly necessary, need to see how cluttered the brushed in regions make the overall visualization before deciding whether or not to add
+    - selecting a region will make all country-circles in the region and the region in the background pop
+![image](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
+![image](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
+![image](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
 
 Wk 10:
-* add a slider to animate change over time and change the x-axis to pull in income per capita
-    - any selected region(s) will remain selected when slider is moved
-* add a drop-down to change the attribute used to populate the x axis (and add Income per capita to the y-axis drop-down as well)
+* add a slider to animate change over time and add a drop-down for the x-axis to pull in all the attributes
+    - any selected region(s) will remain selected when the slider is moved
     - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
+* calculate r for circleRadius based on yValue and y axis range
+    - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
+![image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
 
