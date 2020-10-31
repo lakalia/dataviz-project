@@ -53,14 +53,18 @@ Wk 6:
     - Life Expectancy, UN Fertility and Income per capita for the options for the drop-down(s)
     - region and possibly hex-value for regions and region-color
 * add a drop-down to change the attribute used to populate the y axis 
+
 [need image](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
 
 Wk 8:
 * add a color legend and the world regions to be faded in the background until a region is "selected" (on mouse-over or by clicking on a region in the legend)
     - multiple regions can be selected at once for comparison
     - selecting a region will make all country-circles in the region and the region in the background pop
+    
 [need image](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
+
 [need image](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
+
 [need image](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
 
 Wk 10:
@@ -69,5 +73,6 @@ Wk 10:
     - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
 * calculate r for circleRadius based on yValue and y axis range
     - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
+    
 [need image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
 
