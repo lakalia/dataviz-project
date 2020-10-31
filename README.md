@@ -3,13 +3,13 @@
 ## Data
 
 The data I propose to visualize for my project is the [data](https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924) 
-from Hans Rosling's Gapminder: 
+behind Hans Rosling's now famous Gapminder population growth visualization: 
 [![Hans_Rosling_visualization](Hans_Rosling_visualization.gif)](https://www.gapminder.org/tools) 
 
-brushed with the world regions according to the world bank:
+linked to the world regions according to the world bank in the background:
 [![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)](https://ourworldindata.org/grapher/world-regions-according-to-the-world-bank)
 
-The world regions will be faded in the background of the Gapminder visualization until you mouse-over a country-circle at which point the corresponding region in the background and all other country-circles for countries in the region will pop. A slider will animate population change over time and a drop-down will allow the user to choose between visualizing Total Population, Life Expectancy or Fertility on the y axis against Income per capita on the x axis.
+The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click a region in the legend at which point the corresponding region in the background and all the country-circles for countries in the region will pop. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. Year on the x axis will allow the user to see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
 
 
 
