@@ -53,7 +53,7 @@ Wk 6:
     - region and possibly hex-value for regions and region-color
 * add a drop-down to change the attribute used to populate the y axis 
 
-[need image](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
+[![image](GapminderDataReactD3_1_menu.png)](https://vizhub.com/lakalia/02007dc89b1048a7ad58634f6dd0349c)
 
 Wk 8:
 * add a color legend and the world regions to be faded in the background until a region is "selected" (on mouse-over or by clicking on a region in the legend)
