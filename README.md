@@ -57,25 +57,25 @@ Wk 6:
 
 Wk 8:
 * add a color legend and the world regions to be faded in the background until a region is "selected" (on mouse-over or by clicking on a region in the legend)
-    - multiple regions can be selected at once for comparison
     - selecting a region will make all country-circles in the region and the region in the background pop
     
-[need image](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
+[![image](GapminderDataReactD3_world_map_background.png)](https://vizhub.com/lakalia/6c3239df57de400cbaffbf8be5d8e896)
 
-[need image](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
+[![image](GapminderDataReactD3_world_map_colored.png)](https://vizhub.com/lakalia/6dec967d5c7c4eb98fb39b69842847df)
 
-[need image](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
+[![image](GapminderDataReactD3_world_map_with_interactions.png)](https://vizhub.com/lakalia/414f79ac0795446c84855b399ff158ee)
 
 Wk 10:
 * add a slider to animate change over time and add a drop-down for the x-axis to pull in all the attributes
     - any selected region(s) will remain selected when the slider is moved
+    - multiple regions can be selected at once for comparison
     - adding the drop-down will allow more investigation, especially into correlations within regions but, not sure if the visualization will become too much
 * calculate r for circleRadius based on yValue and y axis range
     - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
 
 ### Completed Project
 
-[need image](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
+[![image](GapminderDataReactD3_interactive_regions.png)](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
 
 ### Future Work
 
