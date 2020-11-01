@@ -13,7 +13,7 @@ Note: The world regions according to the world bank, to an extent, take cultural
 
 ## Proposed Visualization
 
-The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click on a region in the legend at which point the corresponding region in the background and all the country-circles for countries in the region pop. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. Year on the x axis will allow the user to see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
+The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click on a region in the legend. Mousing over or clicking on a region in the legend will highlight that region in the background along with all the graphed datapoints for all the countries that fall in that region. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. If Year is chosen on the x axis the user can see the path of change over time for any of the other attributes and if Year is not chosen on the x axis, a slider will animate change over time. 
 
 
 ## Prototypes and Process
