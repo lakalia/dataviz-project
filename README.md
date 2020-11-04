@@ -11,11 +11,6 @@ linked to the world regions according to the world bank in the background:
 
 Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
 
-## Sketches
-
-Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
-![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
-
 ## Questions & Tasks
 
 The following tasks and questions drove the visualization and interaction decisions for this project:
@@ -23,6 +18,11 @@ The following tasks and questions drove the visualization and interaction decisi
  * Is there a correlation between Population, Life Expectancy, Fertility and a nation's Income per capita over time?
  * Does the world region of a country have any impact on those relationships? How much/what kind?
  * Are there any interesting correlations within or between the world regions?
+
+## Sketches
+
+Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
+![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ## Prototypes and Process
 
