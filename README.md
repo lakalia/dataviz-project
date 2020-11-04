@@ -11,11 +11,6 @@ linked to the world regions according to the world bank in the background:
 
 Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
 
-## Proposed Visualization
-
-The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click on a region in the legend. Mousing over or clicking on a region in the legend will highlight that region in the background along with all the graphed datapoints for all the countries that fall in that region. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. If Year is chosen on the x axis the user will be able to see the path of change over time for any of the other attributes chosen on the y axis and, if Year is not chosen on the x axis, a slider will animate change over time just as in the original Hans Rosling visualization. 
-
-
 ## Prototypes and Process
 
 I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
@@ -28,6 +23,15 @@ I used the techniques from [Datavis 2020](https://www.youtube.com/watch?v=AmOz08
 * add a slider to animate population growth over time against income per capita
 * and to add drop-downs to change the attributes used to populate the x and y axes
 
+## Sketches
+
+Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
+![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
+
+## Proposed Visualization
+
+The world regions will be faded in the background of the Gapminder visualization until you mouse-over or click on a region in the legend. Mousing over or clicking on a region in the legend will highlight that region in the background along with all the graphed datapoints for all the countries that fall in that region. Drop-downs will allow the user to choose between visualizing Income per capita, Total Population, Life Expectancy or Fertility on the y axis against Income per capita, Total Population, Life Expectancy, Fertility or Year on the x axis. If Year is chosen on the x axis the user will be able to see the path of change over time for any of the other attributes chosen on the y axis and, if Year is not chosen on the x axis, a slider will animate change over time just as in the original Hans Rosling visualization. 
+
 ## Questions & Tasks
 
 The following tasks and questions drove the visualization and interaction decisions for this project:
@@ -36,10 +40,6 @@ The following tasks and questions drove the visualization and interaction decisi
  * Does the world region of a country have any impact on those relationships? How much/what kind?
  * Are there any interesting correlations within or between the world regions?
 
-## Sketches
-
-Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
-![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ## Open Questions
 
