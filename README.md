@@ -3,8 +3,8 @@
 ## Data
 
 The data I proposed to visualize for my project was the [data](https://gist.github.com/lakalia/ca6cc81792b9d357a20cf2f9fd4c7924) 
-behind Hans Rosling's now famous [Gapminder](https://www.gapminder.org/tools) population growth visualization: 
-[![Hans_Rosling_visualization](Hans_Rosling_visualization.gif)](https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen#t-718495) 
+behind [Hans Rosling's](https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen#t-718495) now famous Gapminder population growth visualization: 
+[![Hans_Rosling_visualization](Hans_Rosling_visualization.gif)](https://www.gapminder.org/tools) 
 
 linked to the world regions according to the world bank in the background:
 [![world-regions-according-to-the-world-bank](world-regions-according-to-the-world-bank.gif)](https://ourworldindata.org/grapher/world-regions-according-to-the-world-bank)
