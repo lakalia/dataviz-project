@@ -11,18 +11,6 @@ linked to the world regions according to the world bank in the background:
 
 Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
 
-## Prototypes and Process
-
-I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
-[![proof of concept visualization in Vega-Lite](GapminderPopulationGrowth_Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
-
-I then began translating that visualization in React and D3:
-[![translating and refining that visualization in React and D3](GapminderPopulationGrowth_React_D3.png)](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
-I used the techniques from [Datavis 2020/CS573](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
-* link the world regions in the background
-* add drop-downs to change the attributes used to populate the x and y axes
-* and add a slider to animate change over time
-
 ## Sketches
 
 Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
@@ -35,6 +23,18 @@ The following tasks and questions drove the visualization and interaction decisi
  * Is there a correlation between Population, Life Expectancy, Fertility and a nation's Income per capita over time?
  * Does the world region of a country have any impact on those relationships? How much/what kind?
  * Are there any interesting correlations within or between the world regions?
+
+## Prototypes and Process
+
+I created an initial proof of concept visualization in Vega-Lite of the Hans Rosling Population Growth data over time:
+[![proof of concept visualization in Vega-Lite](GapminderPopulationGrowth_Vega-lite.png)](https://vizhub.com/lakalia/fc9a5e845c3d45fc9207a6dd43cedd44)
+
+I then began translating that visualization in React and D3:
+[![translating and refining that visualization in React and D3](GapminderPopulationGrowth_React_D3.png)](https://vizhub.com/lakalia/d073269f3dae47359a3f9c57a5458c00)
+I used the techniques from [Datavis 2020/CS573](https://www.youtube.com/watch?v=AmOz08_Fh8Q&list=PL9yYRbwpkykuK6LSMLH3bAaPpXaDUXcLV&index=29) to:
+* link the world regions in the background
+* add drop-downs to change the attributes used to populate the x and y axes
+* and add a slider to animate change over time
 
 ### Schedule of Deliverables
 
