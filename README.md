@@ -1,5 +1,5 @@
 # Data Visualization Project
-[YouTube video](https://youtu.be/R31G3uGz8Rs)
+[Dataviz Portfolio Video](https://youtu.be/R31G3uGz8Rs)
 
 ## Data
 
