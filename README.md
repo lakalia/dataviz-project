@@ -11,18 +11,13 @@ linked to the world regions according to the world bank in the background:
 
 Note: The world regions according to the world bank, to an extent, take cultural similarities into account in addition to geographic location when grouping nations into regions. Thus Mexico is grouped with 'Latin America' instead of 'North America', and 'Northern Africa' is grouped with the 'Middle East' instead of the traditionally accepted but purely geographic region of 'Africa'.
 
-## Questions & Tasks
+### Questions & Tasks
 
 The following tasks and questions drove the visualization and interaction decisions for this project:
 
  * Is there a correlation between Population, Life Expectancy, Fertility and a nation's Income per capita over time?
  * Does the world region of a country have any impact on those relationships? How much/what kind?
  * Are there any interesting correlations within or between the world regions?
-
-## Sketches
-
-Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
-![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ## Prototypes and Process
 
@@ -35,6 +30,11 @@ I used the techniques from [Datavis 2020/CS573](https://www.youtube.com/watch?v=
 * link the world regions in the background
 * add drop-downs to change the attributes used to populate the x and y axes
 * and add a slider to animate change over time
+
+### Sketches
+
+Hans Rosling's Gapminder data visualization with drop-down for Total Population, Life Expectancy or UN Fertility on the y axis and slider for animation over time:
+![image](Hans_Rosling_visualization_w_dropdown_slider.jpg)
 
 ### Schedule of Deliverables
 
@@ -64,11 +64,11 @@ Wk 10:
 * calculate r for circleRadius based on yValue and y axis range
     - circle size is redundant encoding so not strictly necessary, need to see how cluttered the regions in the background make the overall visualization before deciding whether or not to add
 
-## Open Questions
+### Open Questions
 
 Although Hans Rosling's visualization on which this project was initially based has been implemented in React and D3 and the code is available on the internet, I wanted to implement this project myself entirely from scratch in order to really learn React and D3. I was concerned the project was too ambitious for the time we had to complete it, but ultimately I did complete it by the end of the class -- it was a great learning exercise and a great way to showcase what I have learned!
 
-### Completed Project
+## Completed Project
 
 [![image](GapminderDataReactD3_interactive_regions.png)](https://vizhub.com/lakalia/47cfe139da0846a785c8954129e7da4f)
 
