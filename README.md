@@ -79,4 +79,5 @@ The world regions are faded in the background of the Gapminder visualization unt
 
 * style the slider or import a react component for consistency across browsers
 * change the x axis dropdown to dropup and remove scroll bars
+* potentially add a brush so that any country-circles falling within the brushed area will cause the corresponding countries to be highlighted in the background to help identify occluded datapoints
 
